@@ -22,7 +22,7 @@
     И я очистил параметры команды продукта
     И я добавляю каталог сборки как параметр команды продукта
     И я включил отладку логов
-    Когда я выполняю команду продукта "syntax-check" c передачей параметров '-verbose on -mode -ThinClient -WebClient -Server -ExternalConnection -ThickClientOrdinaryApplication '
+    Когда я выполняю команду продукта "syntax-check" c передачей параметров '-verbose on -ThinClient -WebClient -Server -ExternalConnection -ThickClientOrdinaryApplication '
     И я выключил отладку логов
     Тогда в лог-файле запуска продукта есть строка "/CheckConfig -ThinClient -WebClient -Server -ExternalConnection -ThickClientOrdinaryApplication"
     Тогда в лог-файле запуска продукта есть строка "Результат проверки Ошибок не обнаружено"
